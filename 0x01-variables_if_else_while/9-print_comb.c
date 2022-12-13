@@ -1,4 +1,4 @@
-#include <stdio>
+#include <stdio.h>
 /**
  * main -prints all combnations of single digit 
  * Return:Always 0
