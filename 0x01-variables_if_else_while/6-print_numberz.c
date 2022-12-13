@@ -1,0 +1,15 @@
+#include <stdio.h>
+/**
+ * main -prints single digits in base 10
+ * Return: Always 0
+ */
+int main(void)
+{
+	int sum;
+
+	for (sum = 0; sum < 10; sum++)
+		putchar((sum % 10) + '0');
+
+	putchar("\n");
+	return (0);
+}
