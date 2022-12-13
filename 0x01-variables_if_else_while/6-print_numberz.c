@@ -10,6 +10,6 @@ int main(void)
 	for (sum = 0; sum < 10; sum++)
 		putchar((sum % 10) + '0');
 
-	putchar("\n");
+	putchar('\n');
 	return (0);
 }
