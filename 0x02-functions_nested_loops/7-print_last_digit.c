@@ -9,15 +9,13 @@
 
 int print_last_digit(int n)
 {
-	int ld, pre, der;
+	int x;
 
-	ld = log10(n);
+	if (n < 0)
+		n = -n;
 
-	pre = n / pow(10, ld);
+	x = n % 10;
+	_putchar(x + '0');
 
-	der = n % 10;
-
-	_putchar(ld + '0');
-
-	return (0);
+	return (x);
 }
