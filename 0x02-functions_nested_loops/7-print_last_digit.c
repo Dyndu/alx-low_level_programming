@@ -13,7 +13,7 @@ int print_last_digit(int n)
 
 	ld = log10(n);
 
-	pre = n / pw(10, ld);
+	pre = n / pow(10, ld);
 
 	der = n % 10;
 
