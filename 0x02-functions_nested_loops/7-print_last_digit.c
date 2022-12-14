@@ -1,12 +1,13 @@
 #include "main.h"
+#include <limits.h>
 
 /**
  * print_last_digit -print the last digit of a number
- * int -the type of the value which digit has to be printed
+ * @n: the number which digit has to be printed
  * Return: value of the last digit
  */
 
-int print_last_digit(int)
+int print_last_digit(int n)
 {
 	int n = INT_MIN;
 
