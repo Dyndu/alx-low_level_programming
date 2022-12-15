@@ -13,10 +13,10 @@ int main(void)
 	{
 		if ((i % 3 == 0) || (i % 5 == 0))
 		{
-			z += 1;
+			z += i;
 		}
 		i++;
 	}
 	printf("%d\n", z);
 	return (0);
-}
+i}
