@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * more numbers - print more num
+ * more_numbers - print more num
  */
 
 void more_numbers(void)
